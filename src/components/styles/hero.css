@@ -1,0 +1,28 @@
+.container__hero {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../img/hero.jpg"), url("../img/hero.jpg");
+  background-blend-mode: lighten;
+  height: 440px;
+  padding-top: 50px;
+  color: aliceblue;
+  box-sizing: border-box;
+  font-weight: 700;
+
+}
+
+.hero__img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+.title {
+  font-family: "Girassol", cursive;
+  font-size: 80px;
+}
+.hero__p{
+  font-size:16px;
+  margin-top:30px
+}
